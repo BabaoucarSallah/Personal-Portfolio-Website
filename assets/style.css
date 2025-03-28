@@ -24,12 +24,12 @@ header {
 
 header h1 {
     margin-right: auto;
-    padding-left: 3rem;
+    padding-left: 5rem;
 }
 
 nav ul {
     list-style: none;
-    padding: 0 2rem;
+    padding: 0 10rem;
     display: flex;
     align-self: flex-end;
     justify-content: center;
@@ -46,10 +46,36 @@ nav ul li a {
     font-size: 18px;
 }
 
+ul li {
+    list-style: none;
+}
+
 section {
     padding: 40px;
     text-align: center;
     width: 75%;
+}
+
+#home {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+#home img {
+    min-width: 20rem;
+    max-height: 20rem;
+    border-radius: 50%;
+}
+
+#about {
+    text-align: left;
+    list-style: square;
+}
+
+#about ul li {
+    text-align: left;
+    list-style: square;
 }
 
 #projects {
@@ -80,4 +106,13 @@ section {
 
 .project a:hover {
     text-decoration: underline;
+}
+
+#contact {
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
 }

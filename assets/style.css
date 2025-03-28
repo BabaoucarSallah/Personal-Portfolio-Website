@@ -20,6 +20,7 @@ header {
     justify-content: left;
     align-items: center;
     border-radius: 2cap;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -34,6 +35,8 @@ nav ul {
     align-self: flex-end;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
+    max-width: 45vw;
 }
 
 nav ul li {
@@ -56,7 +59,12 @@ section {
     width: 75%;
 }
 
+.welcome-text {
+    max-width: 50vw;
+}
+
 #home {
+    flex-wrap: wrap;
     display: flex;
     text-align: left;
     align-items: center;
@@ -87,6 +95,7 @@ section {
 
 .project {
     background: white;
+    background-image: url();
     padding: 20px;
     width: 300px;
     border-radius: 10px;
@@ -106,6 +115,45 @@ section {
 
 .project a:hover {
     text-decoration: underline;
+}
+
+#project-1 {
+    background-image: url(./project\ 1\ tribute\ page.png);
+    background-size: cover;
+    min-height: 300px;
+        min-width: 400px;
+        max-height: 300px;
+}
+
+#project-1:hover {
+        cursor: pointer;
+        text-decoration: none;
+}
+
+#project-2 {
+    background-image: url(./project\ 2\ technical\ documentation\ page.png);
+    background-size: cover;
+    min-height: 300px;
+    min-width: 400px;
+    max-height: 300px;
+}
+
+#project-2:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#project-3 {
+    background-image: url(./project\ 3\ portfilio\ site.png);
+    background-size: cover;
+    min-height: 300px;
+    min-width: 400px;
+    max-height: 300px;
+}
+
+#project-3:hover {
+    cursor: pointer;
+    text-decoration: none;
 }
 
 #contact {
